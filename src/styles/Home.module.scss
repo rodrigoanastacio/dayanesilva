@@ -1,0 +1,54 @@
+.hero {
+  background-color: var(--blue);
+  min-height: 100vh;
+  background-image: url(../../public/images/nuvens.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: relative;
+
+  &::before {
+    content: '';
+    background: url(../../public/images/bt-hero.svg) no-repeat center bottom;
+    height: 100%;
+    width: 100%;
+    /* display: block; */
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+
+  .container {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+    min-height: 100vh;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+  }
+
+  .wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 7rem 0 10rem;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+    }
+  }
+
+  .image {
+    flex: 1;
+    margin-top: 3.125rem;
+    text-align: center;
+    position: relative;
+
+    img {
+      width: 100%;
+      display: block;
+    }
+  }
+}
