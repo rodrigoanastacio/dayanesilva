@@ -1,3 +1,5 @@
+import FollowMe from '../FollowMe';
+
 import styles from './styles.module.scss';
 
 const Header = () => {
@@ -5,6 +7,7 @@ const Header = () => {
     <header className={styles.header}>
       <div className={styles.container}>
         <h1 className={styles.logo}>Dayane Silva</h1>
+        <FollowMe />
       </div>
     </header>
   );
