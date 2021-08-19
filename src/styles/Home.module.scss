@@ -33,11 +33,16 @@
   .wrapper {
     display: flex;
     flex-direction: column-reverse;
+    align-items: center;
     padding: 7rem 0 10rem;
 
     @media (min-width: 768px) {
       flex-direction: row;
     }
+  }
+
+  .text {
+    flex: 1;
   }
 
   .image {
