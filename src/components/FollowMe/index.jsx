@@ -1,4 +1,4 @@
-import { FaInstagram, FaYoutube, FaTelegram } from 'react-icons/fa';
+import { FaInstagram, FaYoutube, FaPinterest } from 'react-icons/fa';
 
 import styles from './styles.module.scss';
 
@@ -25,7 +25,7 @@ const FollowMe = () => {
       </li>
       <li>
         <a href="">
-          <FaTelegram />
+          <FaPinterest />
         </a>
       </li>
     </ul>
