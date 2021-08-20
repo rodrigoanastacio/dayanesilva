@@ -28,11 +28,9 @@ const Home = () => {
                 transition={{ delay: 0.4 }}
               >
                 <Headline
-                  title="Marketing descomplicado e sem fórmulas prontas"
-                  subtitle="Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla
-                  perspiciatis assumenda minima ducimus iure fuga, aliquam tempora autem
-                  vero quaerat inventore dolorum ullam eos, dolor reiciendis modi
-                  voluptatibus dolore distinctio?"
+                  title="Me conta? Quantas informações sobre Marketing Digital e conteúdo você já viu na internet!"
+                  subtitle="Muita gente dizendo que existe uma formula específica e você não sabe para onde seguir. 
+                    Pois eu te afirmo, criar conteúdo que gera resultados, precisa de estratégia, objetivo e clareza!"
                 ></Headline>
               </motion.div>
             </div>
