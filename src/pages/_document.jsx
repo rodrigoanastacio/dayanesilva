@@ -20,6 +20,10 @@ class MyDocument extends Document {
             href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700;900&family=Roboto:wght@100;400&display=swap"
             rel="stylesheet"
           />
+          <meta
+            name="p:domain_verify"
+            content="9bcac4ba39d90899032bd06a3ee77ace"
+          />
         </Head>
         <body>
           <Main />

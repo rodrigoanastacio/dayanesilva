@@ -28,7 +28,7 @@ const Home = () => {
                 transition={{ delay: 0.4 }}
               >
                 <Headline
-                  title="Me conta? Quantas informações sobre Marketing Digital e conteúdo você já viu na internet!"
+                  title="Me conta: Quantas informações sobre Marketing Digital e conteúdo você já viu na internet?"
                   subtitle="Muita gente dizendo que existe uma formula específica e você não sabe para onde seguir. 
                     Pois eu te afirmo, criar conteúdo que gera resultados, precisa de estratégia, objetivo e clareza!"
                 ></Headline>
@@ -63,8 +63,8 @@ const Home = () => {
       <section className={styles.features}>
         <div className={styles.container}>
           <Banner
-            title="A Imersão Asas está chegando"
-            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti ut perspiciatis, esse recusandae odio doloribus ratione adipisci quibusdam consectetur magnam laboriosam aspernatur laborum maxime sunt dicta suscipit molestiae saepe."
+            title="O que falta para você alcançar resultados no digital"
+            text="Alcançar resultados no digital muitas vezes parece complicado. Você não sabe se muda estratégia, posicionamento ou cria conteúdo. E se eu te falar que são exatamente esses pontos que vão fazer a diferença para o seu negócio."
             cta="Saiba Mais"
             link="https://imersao.dayanesilva.com.br/"
           />
