@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 
 import Header from '../components/Header';
 import Headline from '../components/Headline';
+import Banner from '../components/Banner';
 
 import styles from '../styles/Home.module.scss';
 
@@ -58,6 +59,17 @@ const Home = () => {
               </motion.div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className={styles.features}>
+        <div className={styles.container}>
+          <Banner
+            title="A Imersão Asas está chegando"
+            text="Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus corrupti ut perspiciatis, esse recusandae odio doloribus ratione adipisci quibusdam consectetur magnam laboriosam aspernatur laborum maxime sunt dicta suscipit molestiae saepe."
+            cta="Saiba Mais"
+            link="https://imersao.dayanesilva.com.br/"
+          />
         </div>
       </section>
     </>
