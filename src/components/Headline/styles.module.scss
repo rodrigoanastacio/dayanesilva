@@ -1,0 +1,17 @@
+.headline {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    font: 900 2.1rem 'Montserrat', sans-serif;
+    color: var(--rose);
+    margin-bottom: 1.25rem;
+  }
+
+  p {
+    font: 100 1.25rem 'Roboto', sans-serif;
+    color: var(--off-white);
+  }
+}
