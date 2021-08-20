@@ -13,7 +13,10 @@ const Home = () => {
     <>
       <Head>
         <title>Dayane Silva | Marketing de Conteúdo</title>
-        <meta name="description" content="Dayane Silva" />
+        <meta
+          name="description"
+          content="Marketing e Estratégias Digitais voltados para negócios no Instagram!"
+        />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
