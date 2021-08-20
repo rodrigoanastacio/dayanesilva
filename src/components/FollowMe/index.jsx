@@ -24,7 +24,11 @@ const FollowMe = () => {
         </a>
       </li>
       <li>
-        <a href="">
+        <a
+          target="_blank"
+          rel="noreferrer"
+          href="https://br.pinterest.com/dayanemktdeconteudo/"
+        >
           <FaPinterest />
         </a>
       </li>
