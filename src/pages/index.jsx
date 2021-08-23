@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Headline from '../components/Headline';
 import Banner from '../components/Banner';
+import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.scss';
 
@@ -81,6 +82,16 @@ const Home = () => {
           />
         </div>
       </section>
+
+      <Footer>
+        <div className="container">
+          <p>&copy; 2021 Dayane Silva | Todos os direitos reservados</p>
+          <p>
+            Feito com <img src="/images/coracao.svg" alt="Feito com amor" /> por
+            Rodrigo Anastacio
+          </p>
+        </div>
+      </Footer>
     </>
   );
 };

@@ -1,0 +1,25 @@
+.footer {
+  padding: 1rem 0;
+  background-color: #f1f1f1;
+
+  p {
+    font-size: 0.8rem;
+    color: #b9b6b6;
+  }
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  @media (min-width: 631px) {
+    flex-direction: row;
+  }
+}

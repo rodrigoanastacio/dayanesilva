@@ -59,3 +59,19 @@ a {
   right: 17.5rem;
   max-width: 3.75rem;
 }
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+
+  @media (min-width: 631px) {
+    flex-direction: row;
+  }
+}
