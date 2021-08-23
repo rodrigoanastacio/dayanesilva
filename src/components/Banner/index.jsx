@@ -6,14 +6,7 @@ const Banner = (props) => {
   return (
     <div className={styles.banner}>
       <a href={props.link ? props.link : null}>
-        <Image
-          src="/images/banner-imersao-asas-v2.jpg"
-          layout="fill"
-          unoptimized={true}
-          className={styles.customImg}
-          style={{ zIndex: '-1' }}
-          alt="Imersão Asas"
-        />
+        <img src={'/images/' + props.bgImage} alt={props.title} />
         <div className={styles.banner__wrapper}>
           <div className={styles.banner__text}>
             <h2>{props.title}</h2>

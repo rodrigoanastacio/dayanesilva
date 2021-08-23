@@ -66,10 +66,18 @@ const Home = () => {
       <section className={styles.features}>
         <div className={styles.container}>
           <Banner
+            bgImage="banner-imersao-asas-v2.jpg"
             title="O que falta para você alcançar resultados no digital"
             text="Alcançar resultados no digital muitas vezes parece complicado. Você não sabe se muda estratégia, posicionamento ou cria conteúdo. E se eu te falar que são exatamente esses pontos que vão fazer a diferença para o seu negócio."
             cta="Saiba Mais"
-            link="https://imersao.dayanesilva.com.br/"
+            link="https://imersao.dayanesilva.com.br/?utm_source=DS_Site&utm_medium=banner&utm_campaign=imersao_asas"
+          />
+          <Banner
+            bgImage="banner-consultoria.jpg"
+            title="Consultoria de Marketing para Negócios Digitais"
+            text="A consultoria é ideal para você que já tem um perfil de negócios, e tem dúvidas de quais estratégias usar para melhorar seus resultados, quais objetivos precisa organizar para crescer e ter um direcionamento totalmente focado para a sua marca."
+            cta="Saiba Mais"
+            link="https://dayanesilva.com.br/consultoria-de-marketing-para-empreendedoras?utm_source=DS_Site&utm_medium=banner&utm_campaign=consultoria"
           />
         </div>
       </section>
