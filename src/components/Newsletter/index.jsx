@@ -28,7 +28,7 @@ const Newsletter = (props) => {
             required
           />
           <button form="sib-form" type="submit">
-            Cadastrar e-mail
+            Me tornar Vip
           </button>
 
           <input type="hidden" name="locale" value="pt" />
