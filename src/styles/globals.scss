@@ -6,8 +6,15 @@
 
 :root {
   --blue: #324b71;
+  --blue-200: #56b4c0;
   --rose: #a2666f;
   --off-white: #f7ece1;
+
+  --blue-gradient-left: linear-gradient(
+    90deg,
+    #56b4c0,
+    rgba(139, 175, 202, 100)
+  );
 }
 
 @media (max-width: 1080px) {
@@ -74,4 +81,8 @@ a {
   @media (min-width: 631px) {
     flex-direction: row;
   }
+}
+
+.section {
+  margin-bottom: 50px;
 }

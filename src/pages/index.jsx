@@ -5,6 +5,7 @@ import { motion } from 'framer-motion';
 import Header from '../components/Header';
 import Headline from '../components/Headline';
 import Banner from '../components/Banner';
+import Newsletter from '../components/Newsletter';
 import Footer from '../components/Footer';
 
 import styles from '../styles/Home.module.scss';
@@ -80,6 +81,12 @@ const Home = () => {
             cta="Saiba Mais"
             link="https://dayanesilva.com.br/consultoria-de-marketing-para-empreendedoras?utm_source=DS_Site&utm_medium=banner&utm_campaign=consultoria"
           />
+        </div>
+      </section>
+
+      <section className="section">
+        <div className="container">
+          <Newsletter />
         </div>
       </section>
 

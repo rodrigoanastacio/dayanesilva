@@ -1,0 +1,70 @@
+.newsletter {
+  font-family: 'Montserrat';
+  width: 100%;
+  padding: 2.5rem 1.5625rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: var(--blue-gradient-left);
+  text-align: center;
+
+  @media (min-width: 631px) {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  & div {
+    flex: 1;
+
+    h2 {
+      margin-bottom: 1.5625rem;
+
+      @media (min-width: 631px) {
+        padding-right: 40px;
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  & div + div {
+    flex: 2;
+
+    p {
+      margin-bottom: 1.25rem;
+      font-family: 'Roboto', serif;
+      font-weight: normal;
+      font-size: 1.25rem;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+
+      @media (min-width: 548px) {
+        flex-direction: row;
+      }
+
+      input {
+        width: 100%;
+        padding: 0.625rem;
+        border: 0;
+        color: #747171;
+        flex: 3;
+        margin-bottom: 0.9375rem;
+
+        @media (min-width: 548px) {
+          margin-bottom: 0;
+        }
+      }
+
+      button {
+        border: none;
+        background-color: var(--blue);
+        color: var(--off-white);
+        padding: 0.9375rem 1.25rem;
+        flex: 1;
+      }
+    }
+  }
+}
