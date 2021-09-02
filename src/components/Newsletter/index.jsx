@@ -11,7 +11,7 @@ const Newsletter = (props) => {
           Faça parte da minha lista exclusiva e receba conteúdos semanais sobre:
           negócios, empreendedorismo, marketing, posicionamento e imagem
           pessoal. Aqui quero compartilhar experiências, insights e novidades
-          para voce construir uma marca FORTE no digital!
+          para você construir uma marca FORTE no digital!
         </p>
         <form
           id="sib-form"
