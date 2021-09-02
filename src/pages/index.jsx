@@ -68,10 +68,10 @@ const Home = () => {
         <div className={styles.container}>
           <Banner
             bgImage="banner-imersao-asas-v2.jpg"
-            title="O que falta para você alcançar resultados no digital"
-            text="Alcançar resultados no digital muitas vezes parece complicado. Você não sabe se muda estratégia, posicionamento ou cria conteúdo. E se eu te falar que são exatamente esses pontos que vão fazer a diferença para o seu negócio."
+            title="Análise de Perfil"
+            text="O serviço de análise de perfil é para você que já possui uma marca no Instagram, mas precisa de uma avaliação e um olhar mais específico e de forma profissional sobre o seu negócio. Com a análise voce vai descobrir seus pontos fracos e fortes e dessa forma melhorar seus resultados."
             cta="Saiba Mais"
-            link="https://imersao.dayanesilva.com.br/?utm_source=DS_Site&utm_medium=banner&utm_campaign=imersao_asas"
+            link="https://forms.gle/JTTeTfunso3nnyDm7"
           />
           <Banner
             bgImage="banner-consultoria.jpg"
