@@ -4,7 +4,7 @@ const Newsletter = (props) => {
   return (
     <div className={styles.newsletter}>
       <div>
-        <h2>Faça parte da minha Lista VIP</h2>
+        <h2>Entre para da minha Lista VIP</h2>
       </div>
       <div>
         <p>
